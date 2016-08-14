@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+
+    <!--
+    foregroundColor  前景色
+    backgroundColor 背景色
+    -->
+<declare-styleable name="LineProgress">
+
+    <attr name="foregroundColor" format="color"></attr>
+    <attr name="backgroundColor" format="color"></attr>
+
+</declare-styleable>
+</resources>

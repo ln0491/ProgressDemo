@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+
+    tools:context="liu.progressdemo.MainActivity">
+
+           <Button
+               android:id="@+id/btnStart"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Hello World!"/>
+
+           <!--<liu.progressdemo.view.LineProgress-->
+               <!--android:id="@+id/pg"-->
+               <!--android:layout_width="match_parent"-->
+
+               <!--android:layout_height="40dp"-->
+               <!--app:backgroundColor="#00ff00"-->
+               <!--app:foregroundColor="#ff0000"/>-->
+
+
+           <liu.progressdemo.view.RoundProgressBar
+
+               android:id="@+id/roundProgress"
+               android:layout_width="200dp"
+               android:layout_height="200dp"
+               app:roundColor="@android:color/holo_orange_light"
+               app:roundProgressColor="@android:color/holo_blue_bright"
+               app:roundWidth="20dp"
+               app:textColor="#9A32CD"
+               app:textIsDisplayable="true"
+               app:textSize="28sp"/>
+
+    <liu.progressdemo.view.RoundProgressBar
+
+        android:id="@+id/roundProgress1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:style="FILL"
+        app:roundColor="@android:color/holo_red_dark"
+        app:roundProgressColor="@android:color/holo_orange_dark"
+        app:roundWidth="20dp"
+        app:textColor="#9A32CD"
+        app:textIsDisplayable="true"
+        app:textSize="28sp"/>
+
+    <liu.progressdemo.view.LineProgress
+    android:id="@+id/pg"
+    android:layout_width="match_parent"
+
+    android:layout_height="40dp"
+    app:backgroundColor="#00ff00"
+    app:foregroundColor="#ff0000"/>
+</LinearLayout>
